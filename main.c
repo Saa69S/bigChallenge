@@ -2,7 +2,7 @@
 
     int main () {
     /*Buka File untuk dibaca*/
-    FILE *in = fopen("datates.txt","r");
+    FILE *in = fopen("Data-50k.txt","r");
     if (in == NULL) {
         printf("Error: File 'text.txt' tidak ditemukan\n");
         return 1;
