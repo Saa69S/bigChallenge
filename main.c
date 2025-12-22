@@ -9,7 +9,7 @@
     }
     
     /*Buka File untuk ditulis*/
-    FILE *out = fopen("output.txt", "w");
+    FILE *out = fopen("output.bin", "wb");
     if (out == NULL) {
         printf("Error: File 'file.txt' tidak dapat ditemukan\n");
         fclose(in);
